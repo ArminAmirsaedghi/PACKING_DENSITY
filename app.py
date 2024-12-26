@@ -25,6 +25,7 @@ Functions:
         Returns the count of black pixels by subtracting white pixels from total pixels.
     get_white_to_total_ratio(white_pixels, total_pixels):
         Returns the ratio of white pixels to total pixels as a percentage.
+
 Usage:
     Change the `folder_name` variable to the folder you want to analyze.
     Run the script to print the analysis results for each image in the specified folder.
