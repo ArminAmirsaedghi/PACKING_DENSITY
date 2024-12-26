@@ -60,7 +60,7 @@ def get_white_to_total_ratio(white_pixels, total_pixels):
     return white_pixels*100 / total_pixels
 
 if __name__ == '__main__':
-    folder_name = '0.5 M' # Set this variable to the folder name you want to analyze.
+    folder_name = 'YOUR_FOLDER_NAME'
     img_names_lst = get_img_names(folder_name)
     for img_name in img_names_lst:
         img_path = get_img_path(folder_name, img_name)
